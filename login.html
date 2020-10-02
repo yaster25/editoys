@@ -50,6 +50,10 @@
 <script src="http://editoys.ru/catalog/view/javascript/common.js" type="text/javascript"></script>
 
 <link href="http://editoys.ru/image/catalog/favicon.png" rel="icon" />
+    
+    <link href="css/style-new.css" type="text/css" rel="stylesheet" media="screen" />
+    <script src="js/scripts-new.js" type="text/javascript"></script>
+    
 </head>
 <body>
 
@@ -414,7 +418,7 @@
                                     </div>
                                     <div class="form-group pt20">
                                         <div class="col-sm-12">
-                                            <button onclick="return ClientRegister();"  type="submit" class="carousel_button registration_btn">Зарегистрироваться</button>
+                                            <button onclick="return ClientRegister2();"  type="submit" class="carousel_button registration_btn">Зарегистрироваться</button>
                                         </div>
                                     </div>
                                 </form>
@@ -490,7 +494,8 @@ function ClientRegister() {
 $("#newsletter_5f762490280a2").pavoNewsletter({
     message: 'Недопустимый email!'
 });//.work(  'Недопустимый email!' );
---></script>
+-->
+    </script>
 
 
 <!--
@@ -634,6 +639,18 @@ $("#newsletter_5f762490280a2").pavoNewsletter({
 
     </div>
 </footer>
+    
+    <!-- popup register thank -->
+    <div class="y-hidden">
+        <div class="y-popup" id="y-register-thank">
+            <div class="y-popup-thank">
+                <div class="y-popup__title">Спасибо <br>за регистрацию на сайте</div>
+                <div class="y-popup__text">после проверки модератором, вам будет предоставлен доступ к ценам</div>
+            </div>
+        </div>
+    </div>    
+    
+    <!-- end popup register thank -->
 
 
 <!-- <script src="http://editoys.ru/catalog/view/javascript/jquery/jquery.js" type="text/javascript"></script> -->

@@ -1,0 +1,68 @@
+/*@font-face {
+    font-family: 'a_FuturaRoundDemi';
+    src: url('../fonts/a_futurarounddemi.eot');
+    src: url('../fonts/a_futurarounddemi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/a_futurarounddemi.woff2') format('woff2'),
+    url('../fonts/a_futurarounddemi.woff') format('woff'),
+    url('../fonts/a_futurarounddemi.ttf') format('truetype'),
+    url('../fonts/a_futurarounddemi.svg#a_futurarounddemi') format('svg');
+}*/
+
+
+.y-hidden{
+    display: none;
+}
+.y-popup{
+    width: 420px;
+    background: #fff;
+    padding: 10px;
+    text-align: center;    
+}
+.y-popup-thank{
+    background: url('../img/bg-y-popup-thank.jpg') no-repeat center top;
+    width: 100%;
+    padding: 230px 15px 55px;
+    color: #fff;
+}
+.y-popup__title{
+    font-size: 24px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+}
+.y-popup__text{
+    font-size: 13px;
+    max-width: 280px;
+    margin: 0 auto;
+    letter-spacing: 0;
+}
+.y-hidden{
+    display:none;
+}
+.fancybox-y-popup{
+    
+}
+.fancybox-y-popup .fancybox-close{
+    background: url(../img/icon-close.png) no-repeat center center #fff;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    right: 15px;
+    transition:all 0.2s;
+}
+.fancybox-y-popup .fancybox-close:hover{
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 479px){
+    .y-popup{
+        width: 300px;
+        padding: 5px;
+    }
+    .fancybox-y-popup .fancybox-close{
+        top: 0;
+        right: 0;
+    }
+    .y-popup__title{
+        font-size: 22px;
+    }
+}
