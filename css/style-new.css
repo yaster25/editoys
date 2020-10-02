@@ -53,6 +53,13 @@
     opacity: 0.9;
 }
 
+.sales_banner-main{
+    padding-top: 0;
+}
+.product_description-text * {
+    white-space: normal !important;
+}
+
 @media screen and (max-width: 479px){
     .y-popup{
         width: 300px;
