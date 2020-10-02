@@ -1,0 +1,676 @@
+
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" lang="ru" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" lang="ru" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="ltr" lang="ru">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="yandex-verification" content="439aac3aa02b855d" />
+<title>Корзина покупок</title>
+<meta property="og:title" content="Большой выбор роботов для детей в интернет-магазине EdiToys. " />
+<!--<base href="http://editoys.ru/" />-->
+<meta property="og:description" content="Большой выбор роботов для детей в интернет-магазине EdiToys. Бесплатная доставка и постоянные скидки!" />
+<meta property="og:image" content="" />
+<meta property="og:url" content="" />
+
+
+
+<!--
+<meta property="og:url" content="" />
+<meta property="og:title" content="Большой выбор роботов для детей в интернет-магазине EdiToys. " />
+<meta property="og:image" content="" />
+<meta property="og:description" content="Большой выбор роботов для детей в интернет-магазине EdiToys. Бесплатная доставка и постоянные скидки!" />
+-->
+
+<script src="http://editoys.ru/catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+<link href="http://editoys.ru/catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<script src="http://editoys.ru/catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="http://editoys.ru/catalog/view/javascript/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+<!-- -->
+    <link rel="stylesheet" href="http://editoys.ru/catalog/view/javascript/bootstrap/css/bootstrap-flat.min.css"/>
+    <link rel="stylesheet" href="http://editoys.ru/catalog/view/javascript/bootstrap/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="http://editoys.ru/catalog/view/theme/default/stylesheet/owl.carousel.css" type="text/css" />
+    <link rel="stylesheet" href="http://editoys.ru/catalog/view/theme/default/stylesheet/owl.theme.css" type="text/css" />
+    <link rel="stylesheet" href="http://editoys.ru/catalog/view/theme/default/stylesheet/style.css" type="text/css" >
+    <link rel="stylesheet" href="http://editoys.ru/catalog/view/theme/default/stylesheet/main.css" type="text/css" >
+    <link href="http://editoys.ru/catalog/view/javascript/fancybox/jquery.fancybox.css" rel="stylesheet">
+<!-- -->
+<link href="http://editoys.ru/catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
+<!-- <link href="http://editoys.ru/catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet"> -->
+<link href="http://editoys.ru/catalog/view/javascript/jquery/magnific/magnific-popup.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="http://editoys.ru/catalog/view/theme/default/stylesheet/pavnewsletter.css" type="text/css" rel="stylesheet" media="screen" />
+<script src="http://editoys.ru/catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="http://editoys.ru/catalog/view/javascript/jquery/pavnewsletter.js" type="text/javascript"></script>
+<script src="http://editoys.ru/catalog/view/javascript/common.js" type="text/javascript"></script>
+
+<link href="http://editoys.ru/image/catalog/favicon.png" rel="icon" />
+</head>
+<body>
+
+
+<!-- <nav id="top">
+  <div class="container"> 
+    
+    <div id="top-links" class="nav pull-right">
+      <ul class="list-inline">
+        <li><a href="http://editoys.ru/contacts/"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">123456789</span></li>
+        <li class="dropdown"><a href="http://editoys.ru/account/" title="Личный кабинет" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">Личный кабинет</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="http://editoys.ru/account/">Личный кабинет</a></li>
+            <li><a href="http://editoys.ru/index.php?route=account/order">История заказов</a></li>
+            <li><a href="http://editoys.ru/index.php?route=account/transaction">Транзакции</a></li>
+            <li><a href="http://editoys.ru/index.php?route=account/download">Загрузки</a></li>
+            <li><a href="http://editoys.ru/index.php?route=account/logout">Выход</a></li>
+                      </ul>
+        </li>
+        <li><a href="http://editoys.ru/index.php?route=account/wishlist" id="wishlist-total" title="<i class="fa fa-heart-o"></i>Избранное 0"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md"><i class="fa fa-heart-o"></i>Избранное 0</span></a></li>
+        <li><a href="http://editoys.ru/cart/" title="Корзина"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Корзина</span></a></li>
+        <li><a href="http://editoys.ru/index.php?route=checkout/checkout" title="Оформить заказ"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Оформить заказ</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+<!-- <header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div id="logo">          <h1><a href="http://editoys.ru/">EdiToys</a></h1>
+          </div>
+      </div>
+      <div class="col-sm-5"><div style="margin-left: 19.7%;" id="search" class="col-lg-4 col-md-12 col-sm-12 col-xs-9 header_main_search pull-right text-right hidden-xs"> 
+    <input type="text" name="search" value="" placeholder="Поиск"/>
+    <button type="button" class="search_button"></button>      
+</div> 
+
+</div>
+      <div class="col-sm-3"><div id="cart" class="main-header__cart">
+  <a id="cart-total" href="index.php?route=checkout/cart"><span>5</span></a>
+</div>
+
+
+
+</div>
+    </div>
+  </div>
+</header> -->
+<div class="wrap-header header">
+    <div class="left-back"></div>
+    <header class="main-header">
+        
+        <div class="top-menu">
+            <div class="top-menu__left">
+                <div class="mini-menu">
+                    <ul>
+                        <li><a href="index.php?route=blog/home">Новости</a></li>
+                        <li><a href="index.php?route=information/information&information_id=4">О компании</a></li>
+                        <li><a href="index.php?route=information/representative">Где купить в розницу</a></li>
+                        <li><a href="index.php?route=information/information&information_id=10">Система скидок</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top-menu__right">
+                                <div class="registration">
+                    <span><a id="wishlist-total" style="text-decoration: none;" href="http://editoys.ru/index.php?route=account/wishlist"><i class="fa fa-heart-o"></i>Избранное 0</a></span>
+                </div>
+                 
+                <div class="registration">
+                                        <span><a style="text-decoration: none;" href="http://editoys.ru/account/">Личный кабинет</a>/<a style="text-decoration: none;" href="http://editoys.ru/index.php?route=account/logout">Выход</a></span>
+                                        
+                </div>
+            </div>
+        </div>
+        <div class="inner-main-header">
+            <div class="main-header__menu">
+                <div class="mobile-menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="main-header__logo">
+                <a href="/"></a>
+            </div>
+            <div class="main-header__text">
+                Производство игрушек<br>для оптовых продаж в России
+            </div>
+            <div class="main-header__roboto">
+                <div class="robot"></div>
+            </div>
+            <div class="main-header__phone">
+                <div class="phone">
+                    <div class="phone__number"><a href="tel:+74957737060">+7 (495) 773-70-60</a></div>
+                    <div class="phone__shedule">9-18 (пн-чт), 9-17 (пт), сб-вс выходные</div>
+                </div>
+            </div>
+            <div class="main-header__price">
+                <div class="getPeice">
+                                        <a href="http://editoys.ru/index.php?route=common/header/downloadPriceList" class="price_list"><span>Скачать прайс лист</span></a>
+                      
+                </div>
+            </div>
+
+            <div class="main-header__search">
+                <img src="http://editoys.ru/catalog/view/theme/default/image/png/mobile-search.png" alt="search">
+            </div>
+
+            <!-- <div class="main-header__cart">
+                <a href="/cart"><span>1</span></a>
+            </div> -->
+
+            <!-- <div class="search-block">
+                <input type="search" class=search-block__input placeholder="Поиск по сайту">
+                <input type="submit" class="search-block__submit" value=''>
+            </div> -->
+
+            <!-- <div class="col-lg-2 col-md-6 col-sm-6 col-xs-5 text-right header_cart">
+                <a href="#" class="">
+                    Корзина пуста
+                </a>
+            </div> -->
+            <!-- <div id="cart" class="main-header__cart">
+                <a id="cart-total" href="index.php?route=checkout/cart"><span>%s</span></a>
+            </div> -->
+            <div id="cart" class="main-header__cart">
+  <a id="cart-total" href="index.php?route=checkout/cart"><span>5</span></a>
+</div>
+
+
+
+
+
+            <!-- <div class="col-sm-3"><div id="cart" class="main-header__cart">
+  <a id="cart-total" href="index.php?route=checkout/cart"><span>5</span></a>
+</div>
+
+
+
+</div>  -->
+            <!-- <div class="col-sm-5"><div style="margin-left: 19.7%;" id="search" class="col-lg-4 col-md-12 col-sm-12 col-xs-9 header_main_search pull-right text-right hidden-xs"> 
+    <input type="text" name="search" value="" placeholder="Поиск"/>
+    <button type="button" class="search_button"></button>      
+</div> 
+
+</div> -->
+            <!-- <div class="col-sm-3"><div id="cart" class="main-header__cart">
+  <a id="cart-total" href="index.php?route=checkout/cart"><span>5</span></a>
+</div>
+
+
+
+</div> -->
+
+        </div>
+
+    </header>
+</div>
+
+<div class="mobile-menu-transition">
+    <div class="mobile-menu-transition__inner">
+        <div class="mobile-back d-flex align-items-center ">Назад</div>
+        <!-- <div class="mobile-list">
+            <ul>
+                <li><a href="">Каталог</a></li>
+                <li><a href="">Условия сотрудничества</a></li>
+                <li><a href="">Маркетинговая поддержка</a></li>
+                <li><a href="">Контакты</a></li>
+                <li><a href="">Акции</a></li>
+                <li><a href="">Войти / Зарегистрироваться</a></li>
+            </ul>
+        </div> -->
+        <div class="mobile-list-bottom">
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="index.php?route=blog/home">Новости</a></li>
+                <li><a href="index.php?route=product/category&path=60">Каталог</a></li>
+                <li><a href="index.php?route=information/information&information_id=4">О компании</a></li>
+                <li><a href="index.php?route=information/information&information_id=8">Где купить в розницу</a></li>
+                <li><a href="index.php?route=information/information&information_id=10">Система скидок</a></li>
+                <li><a href="index.php?route=information/promotions">Акции</a></li>
+                <li><a href="index.php?route=information/information&information_id=9">Маркетинговая поддержка</a></li>
+                <li><a href="index.php?route=information/contact">Контакты</a></li>
+                <li><a href="index.php?route=information/information&information_id=5">Условия сотрудничества</a></li>
+                
+                <!-- <li><a href="">+7 (495) 922 15 75</a></li> -->
+            </ul>
+            <div class="download-price">
+                <div class="download-price__text">
+                                        <a href="http://editoys.ru/index.php?route=common/header/downloadPriceList" class="price_list">Скачать прайс-лист</a>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="header_main_navbar">
+    <div class="container ">
+        <div class="row ">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                <nav class="navigation nav-overlay header_main_menu collapse navbar-collapse"
+                     id="header-navbar-main"
+                     role="navigation">
+                    <ul id="header_menu">
+                        <li><a href="http://editoys.ru/katalog/" class="button">Каталог</a></li>
+                        <li><a href="index.php?route=information/information&information_id=5" class="button">Условия сотрудничества</a></li>
+                        <li><a href="index.php?route=information/information&information_id=9" class="button">Маркетинговая поддержка</a></li>
+                        <li><a href="index.php?route=information/contact" class="button">Контакты</a></li>
+                        <li><a href="index.php?route=information/promotions" class="button">Акции</a></li>
+                        <li style="width: 100%; height: 0px; visibility: hidden; overflow: hidden;"></li>
+                                            </ul>
+                    <a href="#" class="close-overlay">x</a>
+                </nav>
+            </div>
+           <!--  <div class="hidden-sm hidden-md hidden-lg col-xs-3">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#header-navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="col-xs-6 visible-xs text-right">
+                <button class="search_button_col" data-toggle="collapse" data-target="#search_col"><img src="./images/search_w.png" /> </button>
+            </div>
+            <div class="col-xs-3 visible-xs text-right">
+                <a href="#" class="header_cart_col"><img src="./images/cart.png"></a>
+            </div> -->
+            <div id="search" class="col-lg-3 col-md-12 col-sm-12 col-xs-9 header_main_search pull-right text-right hidden-xs">
+                <input name="search" type="text" value="" placeholder="Поиск по сайту">
+                <button type="submit" class="search_button"></button>
+            </div>
+        </div>
+        <!-- <div class="row visible-xs">
+            <div id="search" class="col-xs-12 header_main_search header_main_search-xs text-right collapse" id="search_col">
+                <input value="" name="search" type="text" placeholder="Поиск по сайту">
+                <button type="submit" class="search_button"></button>
+            </div>
+        </div> -->
+    </div>
+</div>
+
+ 
+
+<main class="content">
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul class="breadcrumb">
+                                <li><a href="http://editoys.ru/">Главная</a></li>
+                                <li><a href="http://editoys.ru/cart/">Корзина покупок</a></li>
+                            </ul>
+        </div>
+    </div>
+    <div class="container" id="checautcart">
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <section class="section_catalog-list">
+                <div class="row text-center " id="cart_form">
+                                           <div class="col-md-12 item item-cart">
+                          <div class="item-border">
+                          <table>
+                          <tbody>
+                          <tr>
+                              <td class="col-md-2 item-border_img text-center">
+                                  <img src="http://editoys.ru/image/cache/catalog/Products/ET%20РќР°Р±РѕСЂС‹/ET09/ET09%201200х1200-100x100.jpg" alt="EdiToys Конструктор Робототехника &quot;РОБОТ-ЖУК: Скорпион&quot;">
+                              </td>
+                              <td class="col-md-4 item-border_mc">
+                                  <a href="http://editoys.ru/katalog/robototehnika/editoys-konstruktor-robototehnika-zvezdnyy-voin-218" class="carousel_title">EdiToys Конструктор Робототехника &quot;РОБОТ-ЖУК: Скорпион&quot;</a>
+                                  <p class="item-border_desc">
+                                      
+                                      <br><br>
+                                      342.00 руб./шт.
+                                  </p>
+                              </td>
+                              <td class="col-md-6 item-border_price">
+                                  <div class="count_col">
+                                      <div class="form-group ">
+                                          <input type="number" name="quantity[176]" value="3" class="input_quantity">
+                                      </div>
+                                  </div>
+                                  <div class="price_col-cart">
+                                                                            <div><span>1026.00</span> руб.</div> 
+                                  </div>
+                                  <div class="clearfix"></div>
+                              </td>
+                              <a onclick="cart.remove('176');" class="item-border_remove"></a>
+                            </tr>
+                            </tbody>
+                            </table>
+                          </div>
+                      </div>
+                                          <div class="col-md-12 item item-cart">
+                          <div class="item-border">
+                          <table>
+                          <tbody>
+                          <tr>
+                              <td class="col-md-2 item-border_img text-center">
+                                  <img src="http://editoys.ru/image/cache/catalog/Products/Konstruktory/CADA/Radio%20Control/C51042W/C51042W_1-100x100.jpg" alt=" Конструктор CaDA Военный грузовик, радиоуправление, 545 деталей">
+                              </td>
+                              <td class="col-md-4 item-border_mc">
+                                  <a href="http://editoys.ru/katalog/konstruktory/konstruktor-cada-voennyy-gruzovik-radioupravlenie-545-detaley-226" class="carousel_title"> Конструктор CaDA Военный грузовик, радиоуправление, 545 деталей</a>
+                                  <p class="item-border_desc">
+                                      
+                                      <br><br>
+                                      1990.00 руб./шт.
+                                  </p>
+                              </td>
+                              <td class="col-md-6 item-border_price">
+                                  <div class="count_col">
+                                      <div class="form-group ">
+                                          <input type="number" name="quantity[173]" value="1" class="input_quantity">
+                                      </div>
+                                  </div>
+                                  <div class="price_col-cart">
+                                                                            <div><span>1990.00</span> руб.</div> 
+                                  </div>
+                                  <div class="clearfix"></div>
+                              </td>
+                              <a onclick="cart.remove('173');" class="item-border_remove"></a>
+                            </tr>
+                            </tbody>
+                            </table>
+                          </div>
+                      </div>
+                                          <div class="col-md-12 item item-cart">
+                          <div class="item-border">
+                          <table>
+                          <tbody>
+                          <tr>
+                              <td class="col-md-2 item-border_img text-center">
+                                  <img src="http://editoys.ru/image/cache/catalog/Products/ET%20%20Наборы/ET11/ET08-100x100.png" alt="EdiToys Конструктор Робототехника &quot;Роботостроение 11в1&quot;">
+                              </td>
+                              <td class="col-md-4 item-border_mc">
+                                  <a href="http://editoys.ru/katalog/robototehnika/editoys-konstruktor-robototehnika-robotostroenie-14v1-273" class="carousel_title">EdiToys Конструктор Робототехника &quot;Роботостроение 11в1&quot;</a>
+                                  <p class="item-border_desc">
+                                      
+                                      <br><br>
+                                      820.00 руб./шт.
+                                  </p>
+                              </td>
+                              <td class="col-md-6 item-border_price">
+                                  <div class="count_col">
+                                      <div class="form-group ">
+                                          <input type="number" name="quantity[183]" value="1" class="input_quantity">
+                                      </div>
+                                  </div>
+                                  <div class="price_col-cart">
+                                                                            <div><span>820.00</span> руб.</div> 
+                                  </div>
+                                  <div class="clearfix"></div>
+                              </td>
+                              <a onclick="cart.remove('183');" class="item-border_remove"></a>
+                            </tr>
+                            </tbody>
+                            </table>
+                          </div>
+                      </div>
+                     
+                </div>
+            </section>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <section id="cart-sidebar" class="cart_sidebar ">
+                <div class="cart_sidebar-bg">
+                                                                                                <div class="cart_sidebar-price">
+                        <p>
+                            <span>Общая сумма</span>
+                            с учетом скидок
+                        </p>
+                        <span>3836.00</span> руб.
+                    </div>
+                                                          <div class="cart_sidebar-discount">
+                        Выгода
+                        <span>0 руб.</span>
+                    </div>
+                    
+                    <a href="http://editoys.ru/index.php?route=checkout/buyoneclick/oneclickadd" class="button_white-cart">Оформить заказ</a>
+                </div>
+            </section>
+        </div>
+    </div>
+<div class="subscribe" id="newsletter_5f76ec946b0b3" data-mode="default">
+    <div class="wrapper-block">
+        <div class="text-description">Подпишитесь на рассылку<br class="br"> и получайте партнерские скидки!</div>
+        <div class="robotic">
+            <img src="http://editoys.ru/catalog/view/theme/default/image/png/robotic.png" alt="" class="d-none-lg">
+            <img src="http://editoys.ru/catalog/view/theme/default/image/png/big-robotic.png" alt="" class="d-none-md">
+        </div>
+        <form id="hidevalidform" method="post" action="http://editoys.ru/index.php?route=extension/module/pavnewsletter/subscribe" >
+            <!-- <div class="inner "> -->
+                                    <!--                         <h3 >Newsletter</h3>
+                                        <div class="description-top">
+                                                <p>															
+														</p>
+                                            </div> -->
+                    <div class="input"><span>Email:</span>
+                        <input style="font-family: 'a_FuturaRoundDemi', Verdana; border: 0; background: transparent; width: 100%; color: #fff; font-size: 16px; padding: 0 10px;" type="text" class="input-md inputNew"  value="" size="18" name="email">
+                    </div>
+                    <!-- <div class="button-submit"> -->
+                        <button id="hidevalid" type="submit" name="submitNewsletter"><span class="subscribe-btn">Подписаться</span></button>
+                    <!-- </div> -->
+                    <input type="hidden" value="1" name="action">
+                    <div style="position: absolute; margin-top: 17%;" class="valid"></div>
+                    <!-- <div class="description-bottom">
+                        															
+														
+                    </div> -->
+                            <!-- </div> -->
+        </form>
+    </div>
+</div>
+<script><!--
+$("#newsletter_5f76ec946b0b3").pavoNewsletter({
+    message: 'Недопустимый email!'
+});//.work(  'Недопустимый email!' );
+--></script>
+
+
+</main>
+<script type="text/javascript">
+ $('body').on('change', '#cart_form .input_quantity', function() {
+  $.ajax({
+    url: 'index.php?route=checkout/cart/edit',
+    type: 'post',
+    data: $('#cart_form input'),
+    dataType: 'json',
+    success: function(json) {
+      if (json['success']) {
+        $('#checautcart').load('index.php?route=checkout/cart #checautcart > div');
+      }
+    }
+  });
+});
+</script>
+<!--
+<footer>
+  <div class="container">
+    <div class="row">
+            <div class="col-sm-3">
+        <h5>Информация</h5>
+        <ul class="list-unstyled">
+                   <li><a href="http://editoys.ru/o-kompanii">О компании</a></li>
+                    <li><a href="http://editoys.ru/delivery-information">Delivery Information</a></li>
+                    <li><a href="http://editoys.ru/privacy-policy">Пользовательское соглашение.</a></li>
+                    <li><a href="http://editoys.ru/usloviya-sotrudnichestva">Условия сотрудничества</a></li>
+                  </ul>
+      </div>
+            <div class="col-sm-3">
+        <h5>Служба поддержки</h5>
+        <ul class="list-unstyled">
+          <li><a href="http://editoys.ru/contacts/">Контакты</a></li>
+          <li><a href="http://editoys.ru/index.php?route=account/return/add">Возврат товара</a></li>
+          <li><a href="http://editoys.ru/index.php?route=information/sitemap">Карта сайта</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>Дополнительно</h5>
+        <ul class="list-unstyled">
+          <li><a href="http://editoys.ru/index.php?route=product/manufacturer">Производители</a></li>
+          <li><a href="http://editoys.ru/index.php?route=account/voucher">Подарочные сертификаты</a></li>
+          <li><a href="http://editoys.ru/index.php?route=affiliate/login">Партнерская программа</a></li>
+          <li><a href="http://editoys.ru/index.php?route=product/special">Акции</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>Личный Кабинет</h5>
+        <ul class="list-unstyled">
+          <li><a href="http://editoys.ru/account/">Личный Кабинет</a></li>
+          <li><a href="http://editoys.ru/index.php?route=account/order">История заказов</a></li>
+          <li><a href="http://editoys.ru/index.php?route=account/wishlist">Закладки</a></li>
+          <li><a href="http://editoys.ru/index.php?route=account/newsletter">Рассылка</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p>Работает на <a href="http://opencart-russia.ru">OpenCart "Русская сборка"</a><br /> EdiToys &copy; 2020</p>
+  </div>
+</footer>
+//-->
+
+
+
+<footer class="footer">
+    <div class="wrapper-block">
+        <div class="top">
+            <div class="top__left">
+                <div class="left-img">
+                    <a href="/">
+                      <img src="http://editoys.ru/catalog/view/theme/default/image/logo.png" alt=""/>
+                    </a>
+                </div>
+                <div class="text">
+                    <p>Производство игрушек<br>
+                        Для оптовых продаж в России</p>
+                </div>
+            </div>
+            <div class="top__right">
+                <div class="right">
+                    <div class="place">22-й км Киевского шоссе, домовл. 4, стр. 5, блок Е, Москва, п. Московский, 108811 </div>
+                    <div class="contact">
+                        <div class="info">
+                            <div>
+                                <a style="text-decoration: none;" href="tel:+74959221575"><div class="no-phone">+7 (495) 773-70-60</div></a>
+                                <div class="time">9-18 (пн-чт), 9-17 (пт), <br>сб-вс выходные</div>
+                            </div>
+                        </div>
+                        <a href="mailto:info@editoys.ru" class="email">info@editoys.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line">
+                      <a href="http://editoys.ru/index.php?route=common/header/downloadPriceList" class="download"><span>Скачать прайс-лист</span></a>
+                  </div>
+        <div class="menu-footer">
+            <div class="menu-footer__left">
+                <ul>
+                    <li><a href="http://editoys.ru/katalog/">Каталог</a></li>
+                    <li><a href="index.php?route=information/promotions">Акции</a></li>
+                    <li><a href="index.php?route=information/information&information_id=4">О компании</a></li>
+                    <li><a href="index.php?route=information/information&information_id=9">Маркетинговая поддержка</a></li>
+                </ul>
+            </div>
+            <div class="menu-footer__center">
+                <ul>
+                    <li><a href="index.php?route=blog/home">Новости</a></li>
+                    <li><a href="index.php?route=information/information&information_id=5">Условия сотрудничества</a></li>
+                    <li><a href="index.php?route=information/information&information_id=6">Оплата и доставка</a></li>
+                    <li><a href="index.php?route=information/contact">Контакты</a></li>
+                </ul>
+            </div>
+            
+            <div class="menu-footer__right">
+                <ul> 
+                                    <li><a href="http://editoys.ru/katalog/robototehnika/">Робототехника</a></li>
+                                    <li><a href="http://editoys.ru/katalog/konstruktory/">Конструкторы</a></li>
+                                    <li><a href="http://editoys.ru/katalog/radioupravlenie/">Радиоуправление</a></li>
+                                    <li><a href="http://editoys.ru/katalog/tvorchestvo/">Творчество</a></li>
+                                    <li><a href="http://editoys.ru/katalog/golovolomki/">Головоломки</a></li>
+                                    <li><a href="http://editoys.ru/katalog/markery-dlya-sketchinga/">МАРКЕРЫ ДЛЯ СКЕТЧИНГА</a></li>
+                                    <li><a href="http://editoys.ru/katalog/syughetno-rolevye-igry/">Прочее</a></li>
+                                </ul>
+            </div>
+            
+            
+            
+            
+        </div>
+        <div class="line d-sm-none"></div>
+        <div class="footer-bottom">
+            <div class="footer-bottom__logo">
+                <div class="logo-footer">
+                    <img src="http://editoys.ru/catalog/view/theme/default/image/png/logo-mobile-footer.png" alt="">
+                    <div class="confidential dev grey-md"><a style="color: #605b6c; text-decoration: none;" href="index.php?route=information/information&information_id=3">Политика конфиденциальности</a></div>
+                </div>
+            </div>
+
+           
+
+            <div class="footer-bottom__text">
+                <div class="right-footer">
+                    <a href="http://toogarin.ru/" class="dev"></a>
+                    <div class="right-footer__text grey-md">
+                        Решение найдено
+                    </div>
+                    <div class="right-footer__logo">
+                        <img src="http://editoys.ru/catalog/view/theme/default/image/png/logo-mini-footer.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+<!-- <script src="http://editoys.ru/catalog/view/javascript/jquery/jquery.js" type="text/javascript"></script> -->
+<script src="http://editoys.ru/catalog/view/javascript/jquery/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="http://editoys.ru/catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="http://editoys.ru/catalog/view/javascript/owl.carousel.min.js" type="text/javascript"></script>
+<script src="http://editoys.ru/catalog/view/javascript/main.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $('.price_list_warning').on('click', function(){
+        $.fancybox ({
+          helpers: {
+                overlay: {
+                  locked: false
+                }
+              },
+          content: '<div class="text-center"><div class="price_popup"><div class="section_signin-signup"><div><h3 class="section_signin-title">Для скачивания нашего прайса необходимо пройти регистрацию</h3></div></div><div><form class="form-horizontal" id="product_form" role="form"><div class="pt20"><div><a href="/login/" class="carousel_button">Зарегистрироваться</a></div></div></form></div></div></div>'
+        });
+    });
+</script>
+<script type="text/javascript">
+    $('.meneger_button').on('click', function(){
+        $.ajax({
+            url: "index.php?route=common/form/servis_brak",
+            type: 'POST',
+            dataType : 'html',
+            success: function(html){
+                $.fancybox ({
+                    helpers: {
+                      overlay: {
+                        locked: false
+                      }
+                    },
+                    content: html
+                });
+            },
+            error: function(data){
+                console.log(data);
+            }
+        });
+    });
+</script>
+
+
+
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+</body></html>
